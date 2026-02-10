@@ -1,6 +1,5 @@
 package fr.simplon.exercises;
 
-import java.util.Arrays;
 
 /**
  * Exercice 5: Tableaux - Opérations de base
