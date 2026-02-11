@@ -1,6 +1,5 @@
 package fr.simplon.exercises;
 
-import java.util.Arrays;
 
 /**
  * Exercice 9: Tableaux - Transformations

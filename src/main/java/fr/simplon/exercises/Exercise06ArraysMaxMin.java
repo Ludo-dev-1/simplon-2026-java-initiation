@@ -90,20 +90,10 @@ public class Exercise06ArraysMaxMin {
      * @return la différence max - min
      */
     public int range(int[] array) {
-        int maxVal = Integer.MIN_VALUE;
-        int minVal = Integer.MAX_VALUE;
-       
-        for (int i = 0; i < array.length; i++) {
-        if (array[i] > maxVal)
-            maxVal = array[i];
-        if (array[i] < minVal)
-            minVal = array[i];
+
+        return findMax(array) - findMin(array);
+
     }
-
-
-        return maxVal-minVal;
-
-        }
-       // throw new UnsupportedOperationException();
+    // throw new UnsupportedOperationException();
 
 }
