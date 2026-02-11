@@ -102,7 +102,7 @@ public class Exercise08StringManipulation {
      */
     public String capitalizeWords(String str) {
 
-        String[] tableau = str.split(" ");
+        String[] tableau = str.toLowerCase().split(" ");
 
         for (int i = 0; i < tableau.length; i++) {
             String mot = tableau[i];
